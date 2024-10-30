@@ -20,7 +20,7 @@ app.get("/",(req,res)=>{
 
 app.use("/api/auth",userRoute)
 
-const port= process.env.port || 4000;
+const port= process.env.port || 5000;
 
 app.listen(port,()=>{
     console.log("server started and running on the port");
